@@ -1,0 +1,80 @@
+html{
+  background: url("img/elOB8v.gif");
+  font-family: 'MonteCarlo', cursive;
+  
+}
+#container{
+  height: 37rem;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  background: url("img/istockphoto-1090795172-612x612.jpg");
+  z-index: 4;
+  border-radius: 10px;
+  animation: scale 3s forwards;
+  text-align: center;
+  border-style: double ;
+  border-color: rgb(255, 255, 255);
+  border-width: 5px;
+
+}
+#main{
+  color: #ffffff;
+  text-align: center;
+  line-height: normal;
+  
+  
+  
+
+}
+span{
+  color: #ffffff;
+}
+h1{
+  font-size: 2.4rem;
+
+}
+h2{
+  margin-top: 13rem;
+  font-size: 3rem;
+
+}
+h3{
+  font-size: 1.7rem;
+
+}
+h4{
+  font-size: 1.5rem;
+  margin-top: -3rem;
+
+}
+p{
+  font-weight: bold;
+  font-size: 2rem;
+
+}
+img{
+  position: absolute;
+  height: 22rem;
+  width: 22rem;
+  top: -6rem;
+  left: -7rem;
+  transform: rotate(20deg);
+}
+@keyframes scale{
+  0%{
+      transform: scale(0);
+
+  }
+  100%{
+      opacity: 1;
+      transform: scale(1);
+  }
+}
+
+@media (max-width : 541px){
+  #container{
+    width: 100%;
+    line-height: 3rem;
+  }
+}
