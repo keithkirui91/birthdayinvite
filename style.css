@@ -77,8 +77,14 @@ img{
       transform: scale(1);
   }
 }
+@media (max-width : 542px){
+    #container{
+      line-height: 3rem;
+      width: 100%;
 
-@media (max-width : 541px){
+    }
+  }
+@media (max-width : 376px){
   #container{
     width: 100%;
     margin-top: 4.2rem;
@@ -100,7 +106,8 @@ img{
 }
 @media (max-width : 281px){
   #container{
-    height: 37rem;
+    height: 38rem;
   }
-
+ 
 }
+ 
