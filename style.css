@@ -79,4 +79,11 @@ img{
     height: 40rem;
     padding-top: 2.5rem;
   }
+  #main{
+    color: #ffffff;
+    padding-top: 3rem;
+    text-align: center;
+    line-height: normal;
+  
+  }
 }
