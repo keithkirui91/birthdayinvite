@@ -5,7 +5,7 @@ html{
 }
 #container{
   height: 37rem;
-  width: 40%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
   background: url("img/istockphoto-1090795172-612x612.jpg");
@@ -81,9 +81,14 @@ img{
 @media (max-width : 541px){
   #container{
     width: 100%;
-    top: 3.5rem;
-    line-height: 1rem;
-    height: 35rem;
+    margin-top: 3rem;
+    line-height: .7rem;
+    height: 37rem;
+
+  }
+  img{
+    height: 19rem;
+    width: 19rem;
   }
   #main{
     color: #ffffff;
@@ -92,4 +97,10 @@ img{
     line-height: normal;
   
   }
+}
+@media (max-width : 281px){
+  #container{
+    height: 37rem;
+  }
+
 }
