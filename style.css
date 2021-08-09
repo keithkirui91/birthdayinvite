@@ -81,8 +81,7 @@ img{
 @media (max-width : 541px){
   #container{
     width: 100%;
-    
-    line-height: 2.5rem;
+    line-height: 1.5rem;
     padding-top: 2.5rem;
   }
   #main{
