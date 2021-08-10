@@ -4,8 +4,9 @@ html{
   
 }
 #container{
-  height: 37rem;
-  width: 60%;
+  height: 35rem;
+  width: 45%;
+  margin-top: 2rem;
   margin-left: auto;
   margin-right: auto;
   background: url("img/istockphoto-1090795172-612x612.jpg");
@@ -77,6 +78,12 @@ img{
       transform: scale(1);
   }
 }
+@media (max-width : 769px){
+  #container{
+    width: 60%;
+  }
+}
+
 @media (max-width : 542px){
     #container{
       line-height: 3rem;
@@ -88,7 +95,7 @@ img{
   #container{
     width: 100%;
     line-height: .7rem;
-    height: 37rem;
+    height: 31rem;
 
   }
   img{
